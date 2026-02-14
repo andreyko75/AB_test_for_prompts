@@ -1,0 +1,25 @@
+# Секреты (не выгружать в GitHub)
+.env
+
+# Результаты запусков (генерируются локально)
+output/
+
+# Датасет и промпты — только локально, не выкладываем
+dataset/
+prompts/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+.venv/
+env/
+
+# IDE / OS
+.idea/
+.vscode/
+*.swp
+.DS_Store
